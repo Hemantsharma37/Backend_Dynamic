@@ -13,6 +13,14 @@
             "key": "Name"
           },
           {
+            "name": "Surname",
+            "label": "Surname",
+            "type": "text",
+            "required": true,
+            "validationMessage": "Surname is Required",
+            "key": "Surname"
+          },
+          {
             "name": "Industry",
             "label": "Industry",
             "type": "dropdown",
