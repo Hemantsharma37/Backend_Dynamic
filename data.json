@@ -46,6 +46,14 @@
             "validationMessage": "Phone Number is Required",
             "key": "Phone"
           }
+          {
+            "name": "Date Picker",
+            "label": "Date Picker",
+            "type": "date",
+            "required": true,
+            "validationMessage": "Please Select the Date",
+            "key": "Date"
+          }
         ]
       },
       {
