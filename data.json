@@ -48,7 +48,7 @@
           },
           {
             "name": "Date Picker",
-            "label": "Date Picker",
+            "label": "Date of Birth",
             "type": "date",
             "required": true,
             "validationMessage": "Please Select the Date",
