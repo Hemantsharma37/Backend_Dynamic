@@ -153,15 +153,6 @@
             "key": "Description"
           },
           {
-            "name": "File",
-            "label": "Upload File",
-            "type": "file",
-            "required": true,
-            "cropping": false,
-            "validationMessage": "Upload a File",
-            "key": "File"
-          },
-          {
             "name": "Folder",
             "label": "Folder",
             "type": "dropdown",
