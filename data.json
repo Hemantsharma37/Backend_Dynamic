@@ -45,7 +45,7 @@
             "keyboardType": "numeric",
             "validationMessage": "Phone Number is Required",
             "key": "Phone"
-          }
+          },
           {
             "name": "Date Picker",
             "label": "Date Picker",
