@@ -1,178 +1,174 @@
-
-  {
-    "forms": [
-      {
-        "objectName": "Account",
-        "fields": [
-          {
-            "name": "Name",
-            "label": "Account Name",
-            "type": "text",
-            "required": true,
-            "validationMessage": "Account Name is Required",
-            "key": "Name"
-          },
-          {
-            "name": "Surname",
-            "label": "Surname",
-            "type": "text",
-            "required": true,
-            "validationMessage": "Surname is Required",
-            "key": "Surname"
-          },
-          {
-            "name": "Industry",
-            "label": "Industry",
-            "type": "dropdown",
-            "options": ["Technology", "Finance", "Healthcare", "Education"],
-            "required": false,
-            "validationMessage": "Select The Industry",
-            "key": "Industry"
-          },
-          {
-            "name": "BillingCity",
-            "label": "Billing City",
-            "type": "text",
-            "required": false,
-            "validationMessage": "Billing City is Required",
-            "key": "BillingCity"
-          },
-          {
-            "name": "Phone",
-            "label": "Phone Number",
-            "type": "tel",
-            "required": false,
-            "keyboardType": "numeric",
-            "validationMessage": "Phone Number is Required",
-            "key": "Phone"
-          },
-          {
-            "name": "Date Picker",
-            "label": "Date of Birth",
-            "type": "date",
-            "required": true,
-            "validationMessage": "Please Select the Date",
-            "key": "Date"
-          }
-        ]
-      },
-      {
-        "objectName": "Opportunity",
-        "fields": [
-          {
-            "name": "Name",
-            "label": "Opportunity Name",
-            "type": "text",
-            "required": true,
-            "validationMessage": "Opportunity Name is Required",
-            "key": "Name"
-          },
-          {
-            "name": "StageName",
-            "label": "Stage",
-            "type": "dropdown",
-            "options": ["Prospecting", "Qualification", "Proposal", "Closed Won", "Closed Lost"],
-            "required": true,
-            "validationMessage": "Select Stage Name",
-            "key": "StageName"
-          },
-          {
-            "name": "CloseDate",
-            "label": "Close Date",
-            "type": "date",
-            "required": true,
-            "validationMessage": "Close Date is Required",
-            "key": "CloseDate"
-          },
-          {
-            "name": "Amount",
-            "label": "Amount",
-            "type": "number",
-            "required": false,
-            "validationMessage": "Amount is Required",
-            "key": "Amount"
-          }
-        ]
-      },
-      {
-        "objectName": "Case",
-        "fields": [
-          {
-            "name": "CaseNumber",
-            "label": "Case Number",
-            "type": "text",
-            "required": true,
-            "validationMessage": "Case Number is Required",
-            "key": "CaseNumber"
-          },
-          {
-            "name": "Status",
-            "label": "Status",
-            "type": "dropdown",
-            "options": ["New", "In Progress", "Escalated", "Closed"],
-            "required": true,
-            "validationMessage": "Select Status",
-            "key": "Status"
-          },
-          {
-            "name": "Priority",
-            "label": "Priority",
-            "type": "select",
-            "options": ["Low", "Medium", "High", "Critical"],
-            "required": true,
-            "validationMessage": "Priority is Required",
-            "key": "Priority"
-          },
-          {
-            "name": "Description",
-            "label": "Description",
-            "type": "text",
-            "required": false,
-            "validationMessage": "Enter Description",
-            "key": "Description"
-          }
-        ]
-      },
-      {
-        "objectName": "Document",
-        "fields": [
-          {
-            "name": "Title",
-            "label": "Document Title",
-            "type": "text",
-            "required": true,
-            "validationMessage": "Enter Document Title",
-            "key": "Title"
-          },
-          {
-            "name": "Description",
-            "label": "Description",
-            "type": "textarea",
-            "required": false,
-            "validationMessage": "Enter Description",
-            "key": "Description"
-          },
-          {
-            "name": "Folder",
-            "label": "Folder",
-            "type": "dropdown",
-            "options": ["Public", "Private", "Shared"],
-            "required": false,
-            "validationMessage": "Select",
-            "key": "Folder"
-          },
-          {
-            "name": "File",
-            "label": "File Upload",
-            "type": "file",
-            "required": false,
-            "validationMessage": "Please select an Image",
-            "key": "Folder"
-          }
-        ]
-      }
-    ],
- 
-    
-  }
-  
+{
+  "forms": [
+    {
+      "objectName": "Account",
+      "fields": [
+        {
+          "name": "Name",
+          "label": "Account Name",
+          "type": "text",
+          "required": true,
+          "validationMessage": "Account Name is required.",
+          "key": "Name"
+        },
+        {
+          "name": "Surname",
+          "label": "Surname",
+          "type": "text",
+          "required": true,
+          "validationMessage": "Surname is required.",
+          "key": "Surname"
+        },
+        {
+          "name": "Industry",
+          "label": "Industry",
+          "type": "dropdown",
+          "options": ["Technology", "Finance", "Healthcare", "Education"],
+          "required": false,
+          "validationMessage": "Select an industry.",
+          "key": "Industry"
+        },
+        {
+          "name": "BillingCity",
+          "label": "Billing City",
+          "type": "text",
+          "required": false,
+          "validationMessage": "Billing City is required.",
+          "key": "BillingCity"
+        },
+        {
+          "name": "Phone",
+          "label": "Phone Number",
+          "type": "tel",
+          "required": false,
+          "keyboardType": "numeric",
+          "validationMessage": "Phone Number is required.",
+          "key": "Phone"
+        },
+        {
+          "name": "Date Picker",
+          "label": "Date of Birth",
+          "type": "date",
+          "required": true,
+          "validationMessage": "Please select the date.",
+          "key": "Date"
+        }
+      ]
+    },
+    {
+      "objectName": "Opportunity",
+      "fields": [
+        {
+          "name": "Name",
+          "label": "Opportunity Name",
+          "type": "text",
+          "required": true,
+          "validationMessage": "Opportunity Name is required.",
+          "key": "Name"
+        },
+        {
+          "name": "StageName",
+          "label": "Stage",
+          "type": "dropdown",
+          "options": ["Prospecting", "Qualification", "Proposal", "Closed Won", "Closed Lost"],
+          "required": true,
+          "validationMessage": "Select a stage.",
+          "key": "StageName"
+        },
+        {
+          "name": "CloseDate",
+          "label": "Close Date",
+          "type": "date",
+          "required": true,
+          "validationMessage": "Close Date is required.",
+          "key": "CloseDate"
+        },
+        {
+          "name": "Amount",
+          "label": "Amount",
+          "type": "number",
+          "required": false,
+          "validationMessage": "Enter an amount.",
+          "key": "Amount"
+        }
+      ]
+    },
+    {
+      "objectName": "Case",
+      "fields": [
+        {
+          "name": "CaseNumber",
+          "label": "Case Number",
+          "type": "text",
+          "required": true,
+          "validationMessage": "Case Number is required.",
+          "key": "CaseNumber"
+        },
+        {
+          "name": "Status",
+          "label": "Status",
+          "type": "dropdown",
+          "options": ["New", "In Progress", "Escalated", "Closed"],
+          "required": true,
+          "validationMessage": "Select a status.",
+          "key": "Status"
+        },
+        {
+          "name": "Priority",
+          "label": "Priority",
+          "type": "dropdown",
+          "options": ["Low", "Medium", "High", "Critical"],
+          "required": true,
+          "validationMessage": "Priority is required.",
+          "key": "Priority"
+        },
+        {
+          "name": "Description",
+          "label": "Description",
+          "type": "text",
+          "required": false,
+          "validationMessage": "Enter a description.",
+          "key": "Description"
+        }
+      ]
+    },
+    {
+      "objectName": "Document",
+      "fields": [
+        {
+          "name": "Title",
+          "label": "Document Title",
+          "type": "text",
+          "required": true,
+          "validationMessage": "Enter a document title.",
+          "key": "Title"
+        },
+        {
+          "name": "Description",
+          "label": "Description",
+          "type": "textarea",
+          "required": false,
+          "validationMessage": "Enter a description.",
+          "key": "Description"
+        },
+        {
+          "name": "Folder",
+          "label": "Folder",
+          "type": "dropdown",
+          "options": ["Public", "Private", "Shared"],
+          "required": false,
+          "validationMessage": "Select a folder.",
+          "key": "Folder"
+        },
+        {
+          "name": "File",
+          "label": "File Upload",
+          "type": "file",
+          "required": false,
+          "validationMessage": "Please select a file.",
+          "key": "File"
+        }
+      ]
+    }
+  ]
+}
